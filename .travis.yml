@@ -5,5 +5,5 @@ services:
 
 before_install:
 - docker login --username $DOCKER_USER -p$DOCKER_PASS
-- docker build -t ossprojects/app-core:latest .
-- docker push ossprojects/app-core:latest
+- docker build -t ossprojects/app-core:hbutow-test .
+- docker push ossprojects/app-core:hbutow-test
